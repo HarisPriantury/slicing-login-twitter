@@ -1,0 +1,120 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+html,
+body,
+.content-wrapper {
+  height: 100%;
+}
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.login-screen {
+  flex: 1;
+  display: flex;
+}
+.login-screen .login-left {
+  background-color: rgb(53, 188, 255);
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(icons8-twitter.svg);
+  background-repeat: no-repeat;
+  background-size: 1500px;
+  background-position: -50px;
+}
+.login-screen .login-left .text-wrapper {
+  font-size: 24px;
+  color: white;
+  text-align: left;
+}
+.login-screen .login-right {
+  width: 50%;
+}
+.login-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 50px;
+}
+.input .outline {
+  width: 200px;
+  padding: 15px;
+  margin-right: 10px;
+}
+.input .outline-wrapper {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.input .outline-wrapper input {
+  width: 200px;
+  padding: 15px;
+}
+.btn-outline {
+  border: 2px solid rgb(0, 107, 221);
+  padding: 15px;
+  border-radius: 25px;
+  font-weight: bold;
+  color: rgb(0, 107, 221);
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+}
+.button .logo {
+  width: 60px;
+  height: 60px;
+}
+.button .logo img {
+  width: 100%;
+}
+.button h3 {
+  margin-top: 50px;
+}
+.button .btn-outline {
+  border: 1px solid rgb(0, 107, 221);
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 7px 15px;
+}
+.button .daftar {
+  color: white;
+  background-color: rgb(0, 123, 255);
+}
+.link {
+  border-top: 1px solid grey;
+  background-color: white;
+}
+.link ul {
+  padding: 15px 0 15px 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.link ul a {
+  font-size: 12px;
+  color: grey;
+  text-decoration: none;
+  padding: 5px;
+}
+.link ul a:hover {
+  text-decoration: underline;
+}
